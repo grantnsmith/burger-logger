@@ -1,0 +1,31 @@
+{
+  "name": "burger-logger",
+  "version": "1.0.0",
+  "description": "An application following the MVC design patter and utilizing MySQL, Node, Express, Handlebars, and an ORM built from scratch.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grantnsmith/burger-logger.git"
+  },
+  "keywords": [
+    "mvc",
+    "mysql",
+    "express",
+    "node",
+    "handlebars"
+  ],
+  "author": "Grant Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grantnsmith/burger-logger/issues"
+  },
+  "homepage": "https://github.com/grantnsmith/burger-logger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "mysql": "^2.18.1"
+  }
+}
