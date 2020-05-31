@@ -7,7 +7,6 @@ router.get("/", function(req, res) {
         var burgersObject = {
             burgers: data,
         };
-        console.log(burgersObject);
         res.render("index", burgersObject);
     });
 });
@@ -23,7 +22,7 @@ router.put("/api/burgers/:id", function (req,res) {
     var devoured = req.body.devoured;
 
     burger.updateOne(devoured, burgerID, function(result) {
-        res.status(200).end();
+        res.json(result);
     }
   );
 });
