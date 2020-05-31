@@ -15,11 +15,11 @@ var orm = {
             cb(result);
         });
     },
-    updateOne: function(table, devoured, id) {
-        var queryString = "UPDATE " + table + "SET devoured = ? WHERE id = ?";
+    updateOne: function(table, devoured, id, cb) {
+        var queryString = "UPDATE " + table + " SET devoured = ? WHERE id = ?";
         connection.query(queryString, [devoured, id], function(err, result) {
             if (err) throw err;
-            console.log(result);
+            cb(result);
         });
     }
 }

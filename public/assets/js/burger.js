@@ -11,9 +11,22 @@ $(function() {
           data: newBurger
         }).then(
           function() {
-            console.log("created new burger");
             location.reload();
           }
         );
       });
+
+    $(".devour").on("click", function(event) {
+        event.preventDefault();
+        var id = $(this).data("id");
+        var devoured = {
+            devoured: 1
+        }
+        $.ajax("/api/burgers/" + id, {
+            type: "PUT",
+            data: devoured
+        }).then(function() {
+            location.reload();
+        })
+      })
     });
