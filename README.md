@@ -3,7 +3,7 @@ An application following the MVC design pattern and utilizing MySQL, Node, Expre
 
 ## Links
 
-* DEPLOYED APPLICATION -----
+Deployed Application: https://fast-hollows-38522.herokuapp.com/
 
 ## Application in Action
 
