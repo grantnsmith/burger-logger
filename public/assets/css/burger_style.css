@@ -1,0 +1,58 @@
+html {
+    background-image: url("/assets/img/burger-photo.jpg");
+    background-size: cover;
+}
+
+body {
+    color: #DEB992;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-div {
+    margin: auto;
+    width: 50%;
+    padding: 10px
+}
+
+#add-burger {
+    margin: auto;
+}
+
+.devour {
+    margin: auto;
+    margin-left: 20px;
+}
+
+#name {
+    height: 40px;
+    font-size: 14pt;
+}
+  
+h1 {
+    color: #DEB992;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+h2 {
+    color: #DEB992;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+button {
+    background-color: #1BA098;
+    color: #DEB992;
+    border: 2px solid black;
+    padding: 8px 16px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+li {
+    font-size: x-large;
+}
+
+
+
+
