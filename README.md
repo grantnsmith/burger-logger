@@ -7,6 +7,8 @@ An application following the MVC design pattern and utilizing MySQL, Node, Expre
 
 ## Application in Action
 
+![](public/assets/img/burger-logger.gif)
+
 ## Technologies Used
 * Javascript & JQuery
 * HTML & CSS
